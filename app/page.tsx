@@ -22,14 +22,14 @@ const departments = [
   },
   {
     icon: Cpu,
-    name: "Software & AI",
+    name: "Software & Embedded Systems",
     description:
       "Develop autonomous navigation, computer vision, and rover control.",
     tag: "CODE",
   },
   {
     icon: Radio,
-    name: "Electrical",
+    name: "Electrical & Radio Systems",
     description:
       "Bring the rover to life with circuits, sensors, and communications.",
     tag: "CONNECT",
@@ -99,9 +99,9 @@ export default function Home() {
           </h1>
 
           <p className="mt-6 max-w-lg text-base leading-7 text-slate-400 sm:text-lg">
-            Design it. Build it. Drive it on Mars.
+            Design it. Build it. Compete.
             Join Northern Kentucky University&apos;s rover team
-            and help engineer the future of planetary exploration.
+            and help engineer the next generation of rovers.
           </p>
 
           <div className="mt-9 flex flex-wrap gap-4">
@@ -109,7 +109,7 @@ export default function Home() {
               href="#recruitment"
               className="inline-flex items-center gap-2 rounded-lg bg-orange-500 px-6 py-3.5 font-semibold text-black transition hover:bg-orange-400"
             >
-              Become a Crew Member
+              Become an Engineer
               <ArrowRight size={18} />
             </a>
             <a
@@ -191,6 +191,9 @@ export default function Home() {
             a place for curious minds ready to learn, build, and
             solve real problems.
           </p>
+          <a href="https://urc.marssociety.org/" target="_blank" className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-orange-400 transition hover:text-orange-300">
+            Learn More About the URC <ArrowRight size={16} />
+          </a>
         </div>
 
         <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-[#111722] p-8 sm:p-10">
