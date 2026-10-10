@@ -288,7 +288,7 @@ export default function Home() {
             target="_blank"
             className="relative mt-8 inline-flex items-center gap-2 rounded-lg bg-orange-500 px-7 py-4 font-semibold text-black transition hover:bg-orange-400"
           >
-            Apply to the Team <ArrowRight size={18} />
+            Join the Team <ArrowRight size={18} />
           </a>
           <p className="relative mt-5 text-xs text-slate-500">
             NKU · UNIVERSITY ROVER CHALLENGE
