@@ -48,13 +48,13 @@ export default function Home() {
     <main className="min-h-screen overflow-hidden bg-[#090D14] text-white">
       <nav className="relative z-10 mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-10">
         <Link href="#" className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg border border-orange-400/30 bg-orange-500/10">
+          {/* <div className="flex h-10 w-10 items-center justify-center rounded-lg border border-orange-400/30 bg-orange-500/10">
             <Satellite className="text-orange-400" size={22} />
-          </div>
+          </div> */}
           <div>
-            <p className="text-sm font-bold tracking-widest">
+            {/* <p className="text-sm font-bold tracking-widest">
               NKU ROVER
-            </p>
+            </p> */}
             <p className="text-[10px] tracking-[0.2em] text-slate-400">
               UNIVERSITY ROVER CHALLENGE
             </p>
@@ -85,11 +85,6 @@ export default function Home() {
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_75%_45%,rgba(190,78,39,0.16),transparent_50%)]" />
 
         <div className="relative z-10">
-          <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-orange-400/20 bg-orange-500/5 px-4 py-2 text-xs tracking-wide text-orange-300">
-            <span className="h-2 w-2 animate-pulse rounded-full bg-orange-400" />
-            NKU STUDENT ENGINEERING TEAM
-          </div>
-
           <h1 className="max-w-xl text-5xl font-bold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
             YOUR NEXT
             <br />
@@ -123,7 +118,7 @@ export default function Home() {
           <div className="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-xs tracking-wide text-slate-500">
             <span>01 / ENGINEER</span>
             <span>02 / INNOVATE</span>
-            <span>03 / EXPLORE</span>
+            <span>03 / COMPETE</span>
           </div>
         </div>
 
@@ -131,18 +126,13 @@ export default function Home() {
           <div className="absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full border border-orange-400/10 sm:h-96 sm:w-96" />
           <div className="absolute left-1/2 top-1/2 h-56 w-56 -translate-x-1/2 -translate-y-1/2 rounded-full border border-dashed border-white/10 sm:h-80 sm:w-80" />
           <RoverViewer />
-          <div className="absolute right-0 top-8 hidden rounded-lg border border-white/10 bg-[#111722]/80 p-3 font-mono text-xs text-slate-400 backdrop-blur sm:block">
-            <p className="text-orange-300">ROVER-01</p>
-            <p className="mt-1">STATUS: READY</p>
-            <p>DESTINATION: MARS</p>
-          </div>
         </div>
 
         <a
           href="#countdown"
           className="absolute bottom-4 left-1/2 hidden -translate-x-1/2 items-center gap-2 text-xs tracking-widest text-slate-500 lg:flex"
         >
-          SCROLL TO DISCOVER <ArrowDown size={14} />
+           DISCOVER MORE <ArrowDown size={14} />
         </a>
       </section>
 
@@ -272,16 +262,12 @@ export default function Home() {
       <section id="recruitment" className="px-6 py-24">
         <div className="relative mx-auto max-w-5xl overflow-hidden rounded-2xl border border-orange-400/20 bg-[#151923] px-6 py-14 text-center sm:px-12 sm:py-20">
           <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_50%_100%,rgba(217,107,66,0.18),transparent_60%)]" />
-          <p className="relative text-xs tracking-[0.3em] text-orange-400">
-            ALL SYSTEMS GO
-          </p>
           <h2 className="relative mx-auto mt-5 max-w-2xl text-4xl font-bold sm:text-5xl">
             Ready to join the mission?
           </h2>
           <p className="relative mx-auto mt-5 max-w-xl leading-7 text-slate-400">
             Your major doesn&apos;t define your potential.
-            Your curiosity does. Help NKU take its next step
-            toward the stars.
+            Your curiosity does.
           </p>
           <a
             href="https://forms.cloud.microsoft/r/j5ZwF8A4vG"
@@ -290,17 +276,10 @@ export default function Home() {
           >
             Join the Team <ArrowRight size={18} />
           </a>
-          <p className="relative mt-5 text-xs text-slate-500">
-            NKU · UNIVERSITY ROVER CHALLENGE
-          </p>
         </div>
       </section>
 
       <footer className="border-t border-white/[0.08] px-6 py-6">
-        <div className="mx-auto flex max-w-7xl flex-col justify-between gap-3 text-xs text-slate-500 sm:flex-row">
-          <span>© {new Date().getFullYear()} NKU Rover Team</span>
-          <span>ENGINEER THE EXTRAORDINARY.</span>
-        </div>
       </footer>
     </main>
   );
