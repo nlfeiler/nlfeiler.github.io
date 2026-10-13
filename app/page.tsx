@@ -48,13 +48,7 @@ export default function Home() {
     <main className="min-h-screen overflow-hidden bg-[#090D14] text-white">
       <nav className="relative z-10 mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-10">
         <Link href="#" className="flex items-center gap-3">
-          {/* <div className="flex h-10 w-10 items-center justify-center rounded-lg border border-orange-400/30 bg-orange-500/10">
-            <Satellite className="text-orange-400" size={22} />
-          </div> */}
           <div>
-            {/* <p className="text-sm font-bold tracking-widest">
-              NKU ROVER
-            </p> */}
             <p className="text-[10px] tracking-[0.2em] text-slate-400">
               UNIVERSITY ROVER CHALLENGE
             </p>
@@ -101,10 +95,11 @@ export default function Home() {
 
           <div className="mt-9 flex flex-wrap gap-4">
             <a
-              href="#recruitment"
+              href="https://forms.cloud.microsoft/r/j5ZwF8A4vG"
+              target="_blank"
               className="inline-flex items-center gap-2 rounded-lg bg-orange-500 px-6 py-3.5 font-semibold text-black transition hover:bg-orange-400"
             >
-              Become an Engineer
+              Join the Team
               <ArrowRight size={18} />
             </a>
             <a
@@ -132,7 +127,7 @@ export default function Home() {
           href="#countdown"
           className="absolute bottom-4 left-1/2 hidden -translate-x-1/2 items-center gap-2 text-xs tracking-widest text-slate-500 lg:flex"
         >
-           DISCOVER MORE <ArrowDown size={14} />
+          DISCOVER MORE <ArrowDown size={14} />
         </a>
       </section>
 
